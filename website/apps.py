@@ -1,6 +1,13 @@
+"""
+path: website/apps.py
+description: Website app configuration
+"""
+
 from django.apps import AppConfig
 
-
 class WebsiteConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'website'
+    """
+    Website app configuration class
+    """
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "website"
